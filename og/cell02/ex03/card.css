@@ -1,0 +1,52 @@
+.icon
+{
+    height: 50px;
+    width: 50px;
+}
+
+.profile
+{
+    border-radius: 100px;
+}
+
+body
+{
+    background-color: white;
+}
+
+table
+{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0px auto;
+}
+
+h1, p
+{
+    text-align: center;
+}
+
+.login
+{
+    font-style: italic;
+}
+
+.desc
+{
+    margin: 35px 0 20px 0;
+}
+
+.contato
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button
+{
+    margin: 10px 0 0 0;
+    width: 100%;
+}

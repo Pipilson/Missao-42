@@ -1,0 +1,27 @@
+.a
+{
+    background-color: rgb(177, 37, 37);
+}
+
+.b
+{
+    background-color: rgb(26, 179, 95);
+}
+
+td
+{
+    border: 2px black solid;
+    padding: 40px 200px 40px 0;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, body, html
+{
+    height: 100%;
+    margin: 0;
+}

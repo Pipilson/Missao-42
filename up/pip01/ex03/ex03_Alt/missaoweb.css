@@ -1,0 +1,45 @@
+.cont
+{
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    gap: 30px;
+}
+
+img
+{
+    width: 500px;
+    height: 500px;
+}
+
+body
+{
+    background-color: rgb(137, 119, 238);
+}
+
+h1
+{
+    font-size: 42px;
+    text-align: center;
+    font-family: Verdana;
+}
+
+footer
+{
+    text-align: right;
+}
+
+.ass
+{
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+
+hr
+{
+    color: white;
+    background-color: white;
+    border-style:solid;
+    margin-top: 22px;
+}

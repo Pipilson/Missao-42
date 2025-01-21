@@ -1,0 +1,21 @@
+td
+{
+    border: 2px black solid;
+    height: 200px;
+}
+
+.esq
+{
+    background-color: orangered;
+}
+
+.dir
+{
+    background-color: blueviolet;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+}

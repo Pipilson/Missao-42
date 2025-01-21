@@ -1,0 +1,19 @@
+h1
+{
+    text-align: center;
+}
+
+img
+{
+    width: 640px;
+    height: 360px;
+}
+
+.koroks
+{
+    /*background-color: red;*/
+    
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}

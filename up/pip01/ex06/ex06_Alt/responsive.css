@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+}
+
+table
+{
+    /*background-color: red;*/
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.esq
+{
+    background-color: orangered;
+}
+
+.dir
+{
+    background-color: blueviolet;
+}
+
+td
+{
+    border-radius: 1px;
+    border: 2px  black solid;
+}
+
+table, body, html
+{
+    height: 100%;
+}

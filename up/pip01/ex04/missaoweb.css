@@ -1,0 +1,65 @@
+h1
+{
+    text-align: center;
+    font-size: 42px;
+}
+
+img
+{
+    width: 640px;
+    height: 360px;
+}
+
+.koroks
+{
+    /*background-color: red;*/
+    
+    display: flex;
+    /*justify-content: center;*/
+    text-align: center;
+    gap: 32px;
+}
+
+body
+{
+    background-color: pink;
+}
+
+.sign
+{
+    font-family: monospace;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+footer
+{
+    text-align: right;
+}
+
+hr
+{
+    margin-top: 110px;
+}
+
+.korokLink
+{
+    font-size: 24px;
+}
+
+img
+{
+    border-radius: 16%;
+}
+
+.korok1, .korok2
+{
+    transition: all 0.2s;
+}
+
+.korok1:hover, .korok2:hover
+{
+    transform: rotate(4deg);
+    transition: all 0.2s;
+}
