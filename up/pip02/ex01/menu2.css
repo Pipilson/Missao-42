@@ -1,0 +1,48 @@
+.tudo
+{
+    text-align: center;
+    width: fit-content;
+    font-size: 32px;
+}
+
+.inicio
+{
+    background-color: aqua;
+}
+
+.dentro
+{
+    background-color: aquamarine;
+}
+
+.inicio, .dentro
+{
+    cursor: default;
+}
+
+p
+{
+    margin: 0;
+    border: 1px black solid;
+}
+
+p:not(.inicio):hover
+{
+    background-color: rgba(67, 195, 152);
+}
+
+.inicio:hover
+{
+    background-color: rgba(0, 195, 195)
+}
+
+.dentro
+{
+    display: none;
+}
+
+.tudo:hover .dentro
+{
+    display: inline-block;
+    width: 100%;
+}

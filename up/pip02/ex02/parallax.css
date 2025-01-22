@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+}
+
+.parteSup, .parteInf
+{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.divisao
+{
+    height: 20vh;
+    background-color: black;
+    color: white;
+    background-attachment: fixed;
+}
+
+.parteSup
+{
+    background-image: url(img/horse1.jpg);
+}
+
+.parteInf
+{
+    background-image: url(img/horse2.jpg);
+}
+
+div
+{
+    font-size: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

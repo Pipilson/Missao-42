@@ -1,0 +1,47 @@
+*
+{
+    font-size: 32px;
+}
+
+table
+{
+    /*background-color: red;*/
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.menu
+{
+    background-color: aqua;
+}
+
+.menu:hover
+{
+    background-color: rgba(0, 195, 195); /* aqua -60 */
+}
+
+td
+{
+    background-color: aquamarine;
+    border: 2px black solid;
+
+    cursor: default;
+}
+
+td:hover
+{
+    background-color: rgba(67, 195, 152);
+}
+
+td:not(.menu)
+{
+    display: none;
+}
+
+tr:hover table
+{
+    display: inline-block;
+}
